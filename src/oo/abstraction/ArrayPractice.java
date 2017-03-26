@@ -34,12 +34,11 @@ public class ArrayPractice {
 		for(d=5;d<20;d=d+3){
 			System.out.println(d);
 		}
-		class Cat{
+		class ASD{
 			
 		}
-		Cat q = new Cat();
+		ASD g = new ASD();
 	}
-	
 }
 
 

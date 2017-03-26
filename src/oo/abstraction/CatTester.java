@@ -10,7 +10,7 @@ public class CatTester {
 		Cat cat5 = new Cat("Dorothy","Mix","Female",12,"Taiwan");
 		Cat cat6 = new Cat("King","Maine Cat","Male",1,"American");
 
-		Cat[] cats = new Cat[6];
+		Cat [] cats = new Cat[6];
 		cats[0] = new Cat("Carol","Mix","Female",2,"Taiwan");
 		cats[1] = new Cat("Aaron","American Shorthair","Male",5,"American");
 		cats[2] = new Cat("Sally","British Longhair","Female",3,"Britian");
