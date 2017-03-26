@@ -6,6 +6,7 @@ public class Cat {
        String gender;
        int ages;
        String birthplace;
+       int id;
        public Cat(String name,String varity,String gender,int ages,String birthplace){
     	   this.name = name;
     	   this.varity = varity;
