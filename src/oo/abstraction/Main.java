@@ -6,8 +6,8 @@ public class Main {
 		// TODO Auto-generated method stub
         Car c = new Car("XXX","name",1200);
         c.setMilage(20000);
-        float current = c.addMilage(50);
-        System.out.print("目前里程為:"+current);
+        float current = c.addMilage(-45);
+        System.out.print("目前公里數:"+current);
         //System.out.print(c.milage);
 	}
 

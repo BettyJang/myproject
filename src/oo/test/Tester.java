@@ -24,7 +24,7 @@ public class Tester {
          String data =(String)a.get(2);
          String n = a.get(3);
          System.out.println(data);
-         System.out.println(n);
+         System.out.println(n);  
          //int n = (int)a.get(0);
 	}
 
