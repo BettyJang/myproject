@@ -17,7 +17,7 @@ public class CarTester {
 		Car[] cars = new Car[3];
 		
 		System.out.println(cars[0]);
-		cars[0] = new Car("Toyota","Altis",1800);
+	    cars[0] = new Car("Toyota","Altis",1800);
 		cars[1] = new Car("Honda","Accord",2000);
 		cars[2] = new Car("Toyota","Wish",2000);
 		cars[0].id = 301;

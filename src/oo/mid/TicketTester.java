@@ -1,6 +1,7 @@
 package oo.mid;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class TicketTester {
 
@@ -17,7 +18,13 @@ public class TicketTester {
         String a3 = a.get(2);
         String a4 = a.get(3);
         String a5 = a.get(4);
-        int [] n = new int[5];
+        Ticket t1 = new Ticket(22546,"Beauty and the Beast", 240);
+        Ticket t2 = new Ticket(11546, "Baby Boss", 245);
+        Ticket t3 = new Ticket(66498, "目擊者", 230);
+        Ticket t4 = new Ticket(99785, "玩命關頭8", 220);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("請輸入電影名稱或電影代碼:");
+        String user = scanner.nextLine();
         
 	}
 
