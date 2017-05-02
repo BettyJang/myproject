@@ -29,8 +29,8 @@ package oo.stati;
 		System.out.println(getScore(english)+"\t"+
 				getScore(math)+"\t"+getScore(chinese));
 	}
-
-	private String getScore(int score){
+    //為了讓GraduateStudent可以使用 所以private=>protected
+	protected String getScore(int score){
 		if(score<pass){
 			return String.valueOf(score+"*");
 			       //將int score轉變成String的型態
