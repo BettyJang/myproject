@@ -1,10 +1,13 @@
 package oo.stati;
 
-public class Student {
-     private int english;
+     class Student {
+     int english;
      int math;
      int chinese;
      static int pass = 60;
+     Student(){
+    	 
+     }
      static{
     	 System.out.println("STATIC!!!!");
     	 //System.out.println(english);

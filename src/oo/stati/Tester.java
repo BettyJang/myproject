@@ -11,6 +11,8 @@ public class Tester {
 		stu1.pass = 60;
 		stu1.print();
 		stu2.print();
+		GraduateStudent gstu = new GraduateStudent(66,70, 98);
+		gstu.print();
 	}
 
 }
