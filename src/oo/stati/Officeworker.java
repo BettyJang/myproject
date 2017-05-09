@@ -11,6 +11,7 @@ public class Officeworker {
     	  this.overtime = overtime;
     	  this.late = late;
     	  this.total = total;
+    	  
       }
       private String getScore(int score){
     	  if(score<basic){

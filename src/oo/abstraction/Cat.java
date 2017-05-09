@@ -1,6 +1,6 @@
 package oo.abstraction;
 
-public class Cat {
+public class Cat{
        String name;
        String varity;
        String gender;

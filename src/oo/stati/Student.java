@@ -25,7 +25,7 @@ package oo.stati;
     	 this.math = math;
     	 this.chinese = chinese;
      }*/
-	public void print(){
+	/*public void print(){
 		System.out.println(getScore(english)+"\t"+
 				getScore(math)+"\t"+getScore(chinese));
 	}
@@ -38,5 +38,12 @@ package oo.stati;
 		}else{
 			return String.valueOf(score);
 		}
+	}*/
+	@Override
+	public String toString(){
+		return
+				"Eng:"+english+"\n"+
+				"Chinese:"+chinese+"\n"+
+				"Math:"+math;
 	}
 }

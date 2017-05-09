@@ -6,7 +6,7 @@ import oo.abstraction.Car;
 //import oo.stati.Student;
 
 
-public class Tester {
+public class Tester extends Object{
 
 	public static void main(String[] args) {
 	     Car car = new Car("ZZZ","AAA",1200); 
@@ -28,6 +28,7 @@ public class Tester {
          System.out.println(n);  
          //int n = (int)a.get(0);
          //Student stu = new Student();
+         
 	}
 
 }
